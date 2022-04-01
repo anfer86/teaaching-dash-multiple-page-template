@@ -1,0 +1,1 @@
+web: gunicorn app:server -w 1 --timeout 3000
